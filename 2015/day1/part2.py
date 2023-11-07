@@ -16,4 +16,5 @@ for brackets in data:
         index += 1
     if floor == -1:
         indices.append(index)
+
 print("Answer to part 2 : ", indices[0])
