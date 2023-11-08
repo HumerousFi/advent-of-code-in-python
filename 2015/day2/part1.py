@@ -24,4 +24,4 @@ for values in data:
     else:
         extra_area += length * width
 
-print(surface_area + extra_area)
+print("Answer to part 1 : ", surface_area + extra_area)
