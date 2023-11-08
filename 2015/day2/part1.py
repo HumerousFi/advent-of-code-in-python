@@ -8,9 +8,8 @@ surface_area = 0
 extra_area = 0
 
 for values in data:
+
     lwh = values.split("x")
-    
-    # print(lwh)
 
     length = int(lwh[0])
     width = int(lwh[1])
