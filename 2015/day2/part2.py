@@ -17,7 +17,6 @@ for values in data:
 
     ribbon += length * width * height
 
-    
     if length >= width and length >= height:
         wrap_area += width + width + height + height
     elif width >= length and width >= height:
